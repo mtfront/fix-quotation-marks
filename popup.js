@@ -45,6 +45,7 @@ function fix() {
                 counter++;
             }
         }
+        fixed_counter > 0 ? alert(`fixed ${fixed_counter} characters`) : null;
         let result = charArray.join("");
         t.value = result;
     }
